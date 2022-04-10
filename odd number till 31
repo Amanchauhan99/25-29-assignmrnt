@@ -1,0 +1,25 @@
+package myProjects;
+
+public class Recodd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=31;
+		printodd(n);
+
+	}
+	public static void printodd(int n) {
+		if(n==1) {
+			System.out.println(n);
+			return;
+		}
+		else {
+			printodd(n-1);
+				if(n%2 !=0) {
+				System.out.println(n);
+			n++;
+				}
+			}
+	}
+
+}
