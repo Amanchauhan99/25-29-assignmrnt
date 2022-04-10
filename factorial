@@ -1,0 +1,19 @@
+package myProjects;
+
+public class Recfact {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	      int num = 2;
+	        long factorial = fact(num);
+	        System.out.println(factorial);
+	    }
+	    public static long fact(int num)
+	    {
+	        if (num >= 1)
+	            return num * fact(num - 1);
+	        else
+	            return 1;
+	    }
+	}
